@@ -52,5 +52,6 @@ print "  [+] As number/name: ", "as: " , $info->{'as'}, " - Long: ", $info->{'as
 print "  [+] ORG: ", $info->{'as'}, "\n";
 print "  [+] Country code: ", $info->{'countryCode'}, "\n"; 
 print "  [+] Status: ", $info->{'status'}, "\n"; 
+print "  [!] Geolocation Around in the circle of 3 km";
 print "\n";
 # EOF
