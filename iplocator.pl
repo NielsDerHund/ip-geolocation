@@ -46,6 +46,7 @@ print "  [+] City: ", $info->{'city'}, "\n";
 print "  [+] Region: ", $info->{'regionName'}, " - " , $info->{'region'}, "\n";
 print "  [+] Geo: ", "Lat: " , $info->{'lat'}, " - Long: ", $info->{'lon'}, "\n";
 print "  [+] Geo: ", "Latitude: " , $info->{'lat'}, " - Long: ", $info->{'lat'}, "\n";
+print "  [+] Googlemap: ", "https://www.google.de/maps/place/",$info->{'lat'},",", $info->{'lon'}, "\n";#tewst
 print "  [+] Time: ", "timezone: " , $info->{'timezone'}, " - Long: ", $info->{'timezone'}, "\n";
 print "  [+] As number/name: ", "as: " , $info->{'as'}, " - Long: ", $info->{'as'}, "\n";
 print "  [+] ORG: ", $info->{'as'}, "\n";
